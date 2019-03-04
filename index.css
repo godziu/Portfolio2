@@ -1,0 +1,464 @@
+* {
+  box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth; }
+
+body {
+  margin: 0 auto; }
+
+/* grid */
+.col-1 {
+  width: 8.33%; }
+
+.col-2 {
+  width: 16.66%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33%; }
+
+.col-5 {
+  width: 41.66%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33%; }
+
+.col-8 {
+  width: 66.66%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33%; }
+
+.col-11 {
+  width: 91.66%; }
+
+.col-12 {
+  width: 100%; }
+
+@media (max-width: 768px) {
+  .col-s-1 {
+    width: 8.33%; }
+
+  .col-s-2 {
+    width: 16.66%; }
+
+  .col-s-3 {
+    width: 25%; }
+
+  .col-s-4 {
+    width: 33.33%; }
+
+  .col-s-5 {
+    width: 41.66%; }
+
+  .col-s-6 {
+    width: 50%; }
+
+  .col-s-7 {
+    width: 58.33%; }
+
+  .col-s-8 {
+    width: 66.66%; }
+
+  .col-s-9 {
+    width: 75%; }
+
+  .col-s-10 {
+    width: 83.33%; }
+
+  .col-s-11 {
+    width: 91.66%; }
+
+  .col-s-12 {
+    width: 100%; } }
+@media (max-width: 576px) {
+  .col-sx-1 {
+    width: 8.33%; }
+
+  .col-sx-2 {
+    width: 16.66%; }
+
+  .col-sx-3 {
+    width: 25%; }
+
+  .col-sx-4 {
+    width: 33.33%; }
+
+  .col-sx-5 {
+    width: 41.66%; }
+
+  .col-sx-6 {
+    width: 50%; }
+
+  .col-sx-7 {
+    width: 58.33%; }
+
+  .col-sx-8 {
+    width: 66.66%; }
+
+  .col-sx-9 {
+    width: 75%; }
+
+  .col-sx-10 {
+    width: 83.33%; }
+
+  .col-sx-11 {
+    width: 91.66%; }
+
+  .col-sx-12 {
+    width: 100%; } }
+.col-offset-1 {
+  margin-left: 8.33%; }
+
+.col-offset-2 {
+  margin-left: 16.66%; }
+
+.col-offset-3 {
+  margin-left: 25%; }
+
+.col-offset-4 {
+  margin-left: 33.33%; }
+
+.col-offset-5 {
+  margin-left: 41.66%; }
+
+.col-offset-6 {
+  margin-left: 50%; }
+
+.col-offset-7 {
+  margin-left: 58.33%; }
+
+.col-offset-8 {
+  margin-left: 66.66%; }
+
+.col-offset-9 {
+  margin-left: 75%; }
+
+.col-offset-10 {
+  margin-left: 83.33%; }
+
+.col-offset-11 {
+  margin-left: 91.66%; }
+
+.col-offset-12 {
+  margin-left: 100%; }
+
+.row::before,
+.row::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+[class*="col-"] {
+  float: left;
+  min-height: 1px;
+  padding: 0px; }
+
+header {
+  height: 5vh; }
+  header .other {
+    width: 100%;
+    margin: auto;
+    background-color: #EEE;
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    padding: 10px; }
+    header .other .aone {
+      border-left: 5px solid #227b96;
+      background-color: gray;
+      color: #227b96;
+      width: 15%;
+      text-align: center;
+      line-height: 40px;
+      transition: all 0.5s ease-in-out; }
+      header .other .aone:hover {
+        border-left: 5px solid #222;
+        background-color: #227b96;
+        color: #222;
+        transition: all 0.5s ease-in-out;
+        font-size: 30px;
+        width: 20%; }
+    header .other .atwo {
+      border-left: 5px solid #227b96;
+      background-color: gray;
+      color: violet;
+      width: 15%;
+      text-align: center;
+      line-height: 40px;
+      transition: all 0.5s ease-in-out; }
+      header .other .atwo:hover {
+        border-left: 5px solid #222;
+        background-color: #227b96;
+        color: #222;
+        transition: all 0.5s ease-in-out;
+        font-size: 30px;
+        width: 20%; }
+    header .other .athree {
+      border-left: 5px solid #227b96;
+      background-color: gray;
+      color: #227b96;
+      width: 15%;
+      text-align: center;
+      line-height: 40px;
+      transition: all 0.5s ease-in-out; }
+      header .other .athree:hover {
+        border-left: 5px solid #222;
+        background-color: #227b96;
+        color: #222;
+        transition: all 0.5s ease-in-out;
+        font-size: 30px;
+        width: 20%; }
+    header .other .afour {
+      border-left: 5px solid #227b96;
+      background-color: gray;
+      color: Orange;
+      width: 15%;
+      text-align: center;
+      line-height: 40px;
+      transition: all 0.5s ease-in-out; }
+      header .other .afour:hover {
+        border-left: 5px solid #222;
+        background-color: #227b96;
+        color: #222;
+        transition: all 0.5s ease-in-out;
+        font-size: 30px;
+        width: 20%; }
+    header .other a {
+      text-decoration: none;
+      color: black;
+      font-size: 30px; }
+
+.main {
+  background-image: url(img/main.jpg);
+  background-position: center;
+  height: 107vh;
+  width: 100%;
+  margin-top: -95px; }
+  .main div {
+    padding-top: 15%; }
+    .main div h1 {
+      text-align: center;
+      color: #409fbe;
+      font-size: 3.5vw;
+      font-family: 'Charm', cursive; }
+    .main div h2 {
+      text-align: center;
+      color: #fff;
+      font-size: 3vw;
+      font-family: 'Charm', cursive; }
+    .main div p {
+      text-align: center;
+      color: #fff;
+      font-size: 1.5vw;
+      font-family: 'Ubuntu', sans-serif; }
+  .main .main-arrow {
+    text-align: center;
+    margin-top: -5%; }
+    .main .main-arrow a i {
+      font-size: 3.5vw;
+      height: 2vw;
+      width: 2vw;
+      color: #409fbe;
+      cursor: pointer; }
+
+.about {
+  overflow: hidden;
+  height: 100vh; }
+  .about div .about-text {
+    text-align: center;
+    width: 400px;
+    margin: 0px 170px 0 100px; }
+    .about div .about-text p {
+      text-align: center;
+      border-top-width: 5px;
+      border-top-style: solid;
+      border-top-color: #bcbcbc;
+      margin-top: 50px;
+      padding-top: 20px;
+      font-size: 17px; }
+  .about div .photo img {
+    height: 30vw; }
+  .about div .technology-title {
+    text-align: center;
+    margin-top: 40px; }
+    .about div .technology-title p {
+      color: #409fbe;
+      font-size: 2.3vw; }
+  .about div .technology-position {
+    height: 170px;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    background-repeat: no-repeat;
+    position: relative; }
+    .about div .technology-position img {
+      height: 8vw;
+      width: 160px;
+      position: absolute;
+      left: 16.66%; }
+  .about div .left-arrow {
+    float: right; }
+    .about div .left-arrow a i {
+      font-size: 3.5vw;
+      color: #409fbe;
+      cursor: pointer; }
+  .about div .right-arrow {
+    float: left; }
+    .about div .right-arrow a i {
+      font-size: 3.5vw;
+      color: #409fbe;
+      cursor: pointer; }
+
+.projects {
+  background-image: url("img/stardust.jpeg");
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+  background-position: cover; }
+  .projects h1 {
+    text-align: center;
+    color: #409fbe;
+    padding-top: 30px;
+    font-size: 36px;
+    margin: 0 auto; }
+  .projects div .projects-position {
+    height: 28vh;
+    width: 34vh;
+    margin: 0 auto;
+    margin-top: 85px; }
+    .projects div .projects-position .projects-style {
+      height: 28vh;
+      background-position: center;
+      background-size: cover; }
+      .projects div .projects-position .projects-style .about-projects {
+        position: absolute;
+        height: 28vh;
+        width: 34vh;
+        background-color: rgba(255, 255, 255, 0.9);
+        visibility: hidden;
+        text-align: center;
+        transition: all 0.2s ease;
+        z-index: 2; }
+        .projects div .projects-position .projects-style .about-projects p {
+          margin: 0;
+          text-align: center;
+          padding: 35px 10px 40px 10px;
+          font-size: 20px;
+          color: #217b96; }
+        .projects div .projects-position .projects-style .about-projects .demo-button {
+          margin-top: 25px; }
+          .projects div .projects-position .projects-style .about-projects .demo-button a {
+            text-decoration: none;
+            border-radius: 3px;
+            border: none;
+            font-size: 0.9rem;
+            background: #409fbe;
+            color: #fff;
+            text-align: center;
+            font-weight: bold;
+            padding: 10px 30px; }
+    .projects div .projects-position .game {
+      background-image: url(img/vanilla-js.png); }
+    .projects div .projects-position .country {
+      background-image: url(img/countrySearch.png); }
+    .projects div .projects-position .random {
+      background-image: url(img/randommachine.png); }
+    .projects div .projects-position .kanban {
+      background-image: url(img/kanban.png); }
+    .projects div .projects-position .gif {
+      background-image: url(img/gifSearch.png); }
+    .projects div .projects-position .components {
+      background-image: url(img/components.png); }
+  .projects div .left-arrow {
+    float: right;
+    margin: 0; }
+    .projects div .left-arrow a i {
+      font-size: 3.5vw;
+      color: #409fbe;
+      cursor: pointer;
+      margin-top: 50px; }
+  .projects div .right-arrow {
+    float: left;
+    margin: 0; }
+    .projects div .right-arrow a i {
+      font-size: 3.5vw;
+      color: #409fbe;
+      cursor: pointer;
+      margin-top: 50px; }
+
+.contact {
+  height: 65vh;
+  width: 100%;
+  margin: auto;
+  padding-top: 47px; }
+  .contact h1 {
+    margin-top: 0px;
+    font-size: 2.5vw;
+    color: #409fbe;
+    text-align: center;
+    margin-bottom: 35px; }
+  .contact h3 {
+    text-align: center;
+    font-size: 1.2vw;
+    color: black;
+    padding: 5px;
+    margin: 0; }
+  .contact p {
+    text-align: center;
+    font-size: 1.2vw;
+    color: #409fbe;
+    padding: 5px;
+    margin: 0; }
+  .contact .up-arrow {
+    text-align: center;
+    margin-top: 1%; }
+    .contact .up-arrow a i {
+      font-size: 3.5vw;
+      height: 2vw;
+      width: 2vw;
+      color: #409fbe;
+      cursor: pointer; }
+
+footer {
+  height: 50px;
+  background-color: gray;
+  border-top-color: black;
+  border-top-width: 3px;
+  border-top-style: solid; }
+  footer div {
+    height: 47px; }
+    footer div p {
+      margin-left: 50px;
+      float: left;
+      color: #fff;
+      margin-right: 50px;
+      font-size: 16px; }
+  footer div div {
+    display: inline-block; }
+    footer div div a {
+      text-decoration: none;
+      margin: 10px 20px 0px 25px; }
+      footer div div a i {
+        font-size: 24px;
+        color: #fff;
+        margin: 10px 20px 0px 25px;
+        animation-play-state: paused; }
+
+@media (min-width: 769px) {
+  .projects div .projects-position .projects-style:hover .about-projects {
+    visibility: visible; }
+
+  footer div div a i:hover {
+    animation-play-state: running; } }
+
+/*# sourceMappingURL=index.css.map */
