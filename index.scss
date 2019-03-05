@@ -235,6 +235,30 @@ header {
 		}
 	}
 	div {
+		.left-arrow {
+			float: right;
+			a {
+				i {
+					font-size: 3.5vw;
+					color: $color;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+	div {
+		.right-arrow {
+			float: left;
+			a {
+				i {
+					font-size: 3.5vw;
+					color: $color;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+	div {
 		.technology-title {
 			text-align: center;
 			margin-top: 40px;
@@ -430,29 +454,6 @@ header {
 			}
 		}
 	}
-  // div {
-	// 	text-align: center;
-	// 	position: relative;
-	// 	height: 3vw;
-	// 	margin-top: 20px;
-	//
-	// 	a {
-	// 		position: absolute;
-	// 		top: 50%;
-	// 		left: 10%;
-	// 		transform: translate(-50%,-50%);
-	//
-	// 		i {
-	// 			width: 30px;
-	// 			height: 30px;
-	// 			text-align: center;
-	// 			color: $color;
-	// 			font-size: 40px;
-	// 			cursor: pointer;
-	// 			animation-play-state: paused;
-	// 		}
-	// 	}
-	// }
 }
 
 footer {
@@ -524,4 +525,177 @@ footer {
 			}
 		}
 	}
+}
+
+
+@media (max-width: 768px) {
+	.main {
+		height: 80vh;
+		div {
+			padding-top: 40%;
+			h1 {
+				font-size: 4vw;
+			}
+			h2 {
+				font-size: 3.5vw;
+			}
+			p {
+				font-size: 2.5vw;
+			}
+		}
+		.main-arrow {
+			margin-top: -13%;
+			a {
+				i {
+					font-size: 5vw;
+				}
+			}
+		}
+	}
+
+	.about {
+		div {
+			.about-text {
+				margin: 0 auto;
+				p {
+					font-size: 18px;
+				}
+			}
+		}
+		div {
+			.photo {
+				align-items: center;
+				img {
+					margin-left: 30%;
+				}
+			}
+		}
+		div {
+			.technology-position {
+				height: 90px;
+				img {
+					width: 90px;
+				}
+			}
+		}
+		div {
+			.right-arrow {
+				a {
+					i {
+						font-size: 4vw;
+					}
+				}
+			}
+		}
+		div {
+			.left-arrow {
+				a {
+					i {
+						font-size: 4vw;
+					}
+				}
+			}
+		}
+	}
+
+	.projects {
+		div {
+			.projects-position {
+				height: 20vh;
+				width: 26vh;
+				.projects-style {
+					height: 20vh;
+					.about-projects {
+						height: 20vh;
+						width: 26vh;
+						visibility: visible;
+					}
+				}
+			}
+		}
+	}
+	.contact {
+		height: 50vh;
+		h1  {
+			font-size: 3vw;
+		}
+		h3 {
+			font-size: 2.3vw;
+		}
+		p {
+			font-size: 2.3vw;
+		}
+	}
+}
+
+	@media (max-width: 576px) {
+		header {
+			.other {
+				.aone {
+					width: 20%;
+				}
+				.atwo {
+					width: 20%;
+				}
+				.athree {
+					width: 20%;
+				}
+				.afour {
+					width: 20%;
+				}
+			}
+		}
+
+		.main {
+			.main-arrow {
+				margin-top: -15%;
+				a {
+					i {
+						font-size: 8vw;
+					}
+				}
+			}
+		}
+
+		.about {
+			div {
+				.about-text {
+					p {
+						font-size: 15px;
+					}
+				}
+			}
+			div {
+				.technology-position {
+					height: 80px;
+					img {
+						width: 80px;
+					}
+				}
+			}
+		}
+
+		.projects {
+			div {
+				.projects-position {
+					height: 18vh;
+					width: 22vh;
+					.projects-style {
+						width: 22vh;
+						.about-projects {
+							height: 20vh;
+							width: 22vh;
+							p {
+								font-size: 17px;
+								padding: 25px 10px 25px 10px;
+							}
+							.demo-button {
+								margin-top: 5px;
+							}
+						}
+					}
+				}
+			}
+		}
+
 }

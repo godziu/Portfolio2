@@ -288,6 +288,18 @@ header {
       font-size: 17px; }
   .about div .photo img {
     height: 30vw; }
+  .about div .left-arrow {
+    float: right; }
+    .about div .left-arrow a i {
+      font-size: 3.5vw;
+      color: #409fbe;
+      cursor: pointer; }
+  .about div .right-arrow {
+    float: left; }
+    .about div .right-arrow a i {
+      font-size: 3.5vw;
+      color: #409fbe;
+      cursor: pointer; }
   .about div .technology-title {
     text-align: center;
     margin-top: 40px; }
@@ -460,5 +472,91 @@ footer {
 
   footer div div a i:hover {
     animation-play-state: running; } }
+@media (max-width: 768px) {
+  .main {
+    height: 80vh; }
+    .main div {
+      padding-top: 40%; }
+      .main div h1 {
+        font-size: 4vw; }
+      .main div h2 {
+        font-size: 3.5vw; }
+      .main div p {
+        font-size: 2.5vw; }
+    .main .main-arrow {
+      margin-top: -13%; }
+      .main .main-arrow a i {
+        font-size: 5vw; }
+
+  .about div .about-text {
+    margin: 0 auto; }
+    .about div .about-text p {
+      font-size: 18px; }
+  .about div .photo {
+    align-items: center; }
+    .about div .photo img {
+      margin-left: 30%; }
+  .about div .technology-position {
+    height: 90px; }
+    .about div .technology-position img {
+      width: 90px; }
+  .about div .right-arrow a i {
+    font-size: 4vw; }
+  .about div .left-arrow a i {
+    font-size: 4vw; }
+
+  .projects div .projects-position {
+    height: 20vh;
+    width: 26vh; }
+    .projects div .projects-position .projects-style {
+      height: 20vh; }
+      .projects div .projects-position .projects-style .about-projects {
+        height: 20vh;
+        width: 26vh;
+        visibility: visible; }
+
+  .contact {
+    height: 50vh; }
+    .contact h1 {
+      font-size: 3vw; }
+    .contact h3 {
+      font-size: 2.3vw; }
+    .contact p {
+      font-size: 2.3vw; } }
+@media (max-width: 576px) {
+  header .other .aone {
+    width: 20%; }
+  header .other .atwo {
+    width: 20%; }
+  header .other .athree {
+    width: 20%; }
+  header .other .afour {
+    width: 20%; }
+
+  .main .main-arrow {
+    margin-top: -15%; }
+    .main .main-arrow a i {
+      font-size: 8vw; }
+
+  .about div .about-text p {
+    font-size: 15px; }
+  .about div .technology-position {
+    height: 80px; }
+    .about div .technology-position img {
+      width: 80px; }
+
+  .projects div .projects-position {
+    height: 18vh;
+    width: 22vh; }
+    .projects div .projects-position .projects-style {
+      width: 22vh; }
+      .projects div .projects-position .projects-style .about-projects {
+        height: 20vh;
+        width: 22vh; }
+        .projects div .projects-position .projects-style .about-projects p {
+          font-size: 17px;
+          padding: 25px 10px 25px 10px; }
+        .projects div .projects-position .projects-style .about-projects .demo-button {
+          margin-top: 5px; } }
 
 /*# sourceMappingURL=index.css.map */
