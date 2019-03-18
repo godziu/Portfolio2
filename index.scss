@@ -98,14 +98,14 @@ header {
 	      color: #227b96;
 	      width: 15%;
 	      text-align: center;
-	      line-height: 40px;
+	      line-height: 27px;
 	      transition: all 0.5s ease-in-out;
 	      &:hover {
 	        border-left: 5px solid #222;
 	      	background-color: #227b96;
 	      	color: #222;
 	        transition: all 0.5s ease-in-out;
-	      	font-size: 30px;
+	      	font-size: 20px;
 	      	width: 20%;
 	      }
 	    }
@@ -115,14 +115,14 @@ header {
 	    	color: violet;
 	      width: 15%;
 	      text-align: center;
-	      line-height: 40px;
+	      line-height: 27px;
 	      transition: all 0.5s ease-in-out;
 	      &:hover {
 	        border-left: 5px solid #222;
 	      	background-color: #227b96;
 	      	color: #222;
 	        transition: all 0.5s ease-in-out;
-	      	font-size: 30px;
+	      	font-size: 20px;
 	      	width: 20%;
 	      }
 	    }
@@ -132,14 +132,14 @@ header {
 	    	color: #227b96;
 	      width: 15%;
 	      text-align: center;
-	      line-height: 40px;
+	      line-height: 27px;
 	      transition: all 0.5s ease-in-out;
 	      &:hover {
 	        border-left: 5px solid #222;
 	      	background-color: #227b96;
 	      	color: #222;
 	        transition: all 0.5s ease-in-out;
-	      	font-size: 30px;
+	      	font-size: 20px;
 	      	width: 20%;
 	      }
 	    }
@@ -149,14 +149,14 @@ header {
 	    	color: Orange;
 	      width: 15%;
 	      text-align: center;
-	      line-height: 40px;
+	      line-height: 27px;
 	      transition: all 0.5s ease-in-out;
 	      &:hover {
 	        border-left: 5px solid #222;
 	      	background-color: #227b96;
 	      	color: #222;
 	        transition: all 0.5s ease-in-out;
-	      	font-size: 30px;
+	      	font-size: 20px;
 	      	width: 20%;
 	      }
 	    }
@@ -164,6 +164,7 @@ header {
 	      text-decoration: none;
 	       color: black;
 	       font-size: 30px;
+				 font-family: 'Roboto', sans-serif;
 	    }
 	  }
 	}
@@ -171,8 +172,9 @@ header {
 .main {
   background-image: url(img/main.jpg);
   background-position: center;
-  height: 107vh;
+  height: 90vh;
   width: 100%;
+	min-height: 60vw;
   margin-top: -95px;
   div {
     padding-top: 15%;
@@ -192,7 +194,10 @@ header {
       text-align: center;
       color: #fff;
       font-size: 1.5vw;
-			font-family: 'Ubuntu', sans-serif;
+			font-family: 'Doppio One', sans-serif;
+			span {
+				color: $color;
+			}
     }
   }
   .main-arrow {
@@ -200,7 +205,7 @@ header {
     margin-top: -5%;
     a {
       i {
-        font-size: 3.5vw;
+        font-size: 3vw;
         height: 2vw;
         width: 2vw;
         color: $color;
@@ -214,6 +219,7 @@ header {
 .about {
 	overflow: hidden;
 	height: 100vh;
+	min-height: 60vw;;
 	div {
 		.about-text {
 			text-align: center;
@@ -227,6 +233,10 @@ header {
 				margin-top: 50px;
 				padding-top: 20px;
 				font-size: 17px;
+				// font-family: 'Charm', cursive;
+				span {
+					color: $color;
+				}
 			}
 		}
 	}
@@ -242,9 +252,10 @@ header {
 			float: right;
 			a {
 				i {
-					font-size: 3.5vw;
+					font-size: 3vw;
 					color: $color;
 					cursor: pointer;
+					padding-right: 25px;
 				}
 			}
 		}
@@ -257,6 +268,7 @@ header {
 					font-size: 3.5vw;
 					color: $color;
 					cursor: pointer;
+					padding-left: 25px;
 				}
 			}
 		}
@@ -280,8 +292,8 @@ header {
 			background-repeat: no-repeat;
 			position: relative;
 			img {
-				height: 8vw;
-				width: 160px;
+				height: 6.6vw;
+				width: 120px;
 				position: absolute;
 				left: 16.66%;
 			}
@@ -292,9 +304,10 @@ header {
 			float: right;
 			a {
 				i {
-					font-size: 3.5vw;
+					font-size: 3vw;
 					color: $color;
 					cursor: pointer;
+					padding-right: 25px;
 				}
 			}
 		}
@@ -304,9 +317,10 @@ header {
 			float: left;
 			a {
 				i {
-					font-size: 3.5vw;
+					font-size: 3vw;
 					color: $color;
 					cursor: pointer;
+					padding-left: 25px;
 				}
 			}
 		}
@@ -319,12 +333,14 @@ header {
 	position: relative;
 	background-size: cover;
 	background-position: cover;
+	min-height: 50vw;
 	h1 {
 		text-align: center;
 		color: $color;
 		padding-top: 30px;
 		font-size: 36px;
 		margin: 0 auto;
+		font-family: 'Doppio One', sans-serif;
 	}
 	div {
 		.projects-position {
@@ -336,6 +352,7 @@ header {
 				height: 28vh;
 				background-position: center;
 				background-size: cover;
+				transition: all 0.5s ease;
 				.about-projects {
 					position: absolute;
 					height: 28vh;
@@ -343,14 +360,14 @@ header {
 					background-color: rgba(255, 255, 255, 0.9);
 					visibility: hidden;
 					text-align: center;
-					transition: all 0.2s ease;
 					z-index: 2;
 					p {
 						margin: 0;
 						text-align: center;
 						padding: 35px 10px 40px 10px;
-						font-size: 20px;
+						font-size: 15px;
 						color: rgb(33, 123, 150);
+						// font-family: 'Roboto', sans-serif;
 					}
 					.demo-button {
 						margin-top: 25px;
@@ -394,10 +411,11 @@ header {
 			margin: 0;
 			a {
 				i {
-					font-size: 3.5vw;
+					font-size: 3vw;
 					color: $color;
 					cursor: pointer;
 					margin-top: 50px;
+					padding-right: 25px;
 				}
 			}
 		}
@@ -408,10 +426,11 @@ header {
 			margin: 0;
 			a {
 				i {
-					font-size: 3.5vw;
+					font-size: 3vw;
 					color: $color;
 					cursor: pointer;
 					margin-top: 50px;
+					padding-left: 25px;
 				}
 			}
 		}
@@ -423,6 +442,7 @@ header {
   width: 100%;
   margin: auto;
 	padding-top: 47px;
+	min-height: 35vw;
 	div {
 		h1 {
 			color: $color;
@@ -430,6 +450,7 @@ header {
 			margin-top: 10px;
 			margin-bottom: 80px;
 			font-size: 28px;
+			font-family: 'Doppio One', sans-serif;
 		}
 	}
 div {
@@ -490,6 +511,7 @@ footer {
 			color: #fff;
 			margin-right: 50px;
 			font-size: 16px;
+			font-family: 'Doppio One', sans-serif;
 		}
 	}
 	div {
@@ -497,7 +519,7 @@ footer {
 			display: inline-block;
 			a {
 				text-decoration: none;
-				margin: 10px 20px 0px 25px;
+				margin: 10px 10px 0px 25px;
 				i {
 					font-size: 24px;
 					color: #fff;
@@ -518,7 +540,7 @@ footer {
 			.projects-position {
 				.projects-style {
 					&:hover {
-						// transform: scale(1.2);
+						transform: scale(1.2);
 						.about-projects {
 							visibility: visible;
 						}
@@ -550,7 +572,7 @@ footer {
 
 @media (max-width: 768px) {
 	.main {
-		height: 80vh;
+		height: 70vh;
 		div {
 			padding-top: 40%;
 			h1 {
@@ -629,6 +651,15 @@ footer {
 						height: 20vh;
 						width: 26vh;
 						visibility: visible;
+						p {
+							padding: 35px 10px 20px 10px;
+						}
+						.demo-button {
+							margin-top: 2px;
+							a {
+								font-size: 0.5rem;
+							}
+						}
 					}
 				}
 			}

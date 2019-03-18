@@ -180,14 +180,14 @@ header {
       color: #227b96;
       width: 15%;
       text-align: center;
-      line-height: 40px;
+      line-height: 27px;
       transition: all 0.5s ease-in-out; }
       header .other .aone:hover {
         border-left: 5px solid #222;
         background-color: #227b96;
         color: #222;
         transition: all 0.5s ease-in-out;
-        font-size: 30px;
+        font-size: 20px;
         width: 20%; }
     header .other .atwo {
       border-left: 5px solid #227b96;
@@ -195,14 +195,14 @@ header {
       color: violet;
       width: 15%;
       text-align: center;
-      line-height: 40px;
+      line-height: 27px;
       transition: all 0.5s ease-in-out; }
       header .other .atwo:hover {
         border-left: 5px solid #222;
         background-color: #227b96;
         color: #222;
         transition: all 0.5s ease-in-out;
-        font-size: 30px;
+        font-size: 20px;
         width: 20%; }
     header .other .athree {
       border-left: 5px solid #227b96;
@@ -210,14 +210,14 @@ header {
       color: #227b96;
       width: 15%;
       text-align: center;
-      line-height: 40px;
+      line-height: 27px;
       transition: all 0.5s ease-in-out; }
       header .other .athree:hover {
         border-left: 5px solid #222;
         background-color: #227b96;
         color: #222;
         transition: all 0.5s ease-in-out;
-        font-size: 30px;
+        font-size: 20px;
         width: 20%; }
     header .other .afour {
       border-left: 5px solid #227b96;
@@ -225,25 +225,27 @@ header {
       color: Orange;
       width: 15%;
       text-align: center;
-      line-height: 40px;
+      line-height: 27px;
       transition: all 0.5s ease-in-out; }
       header .other .afour:hover {
         border-left: 5px solid #222;
         background-color: #227b96;
         color: #222;
         transition: all 0.5s ease-in-out;
-        font-size: 30px;
+        font-size: 20px;
         width: 20%; }
     header .other a {
       text-decoration: none;
       color: black;
-      font-size: 30px; }
+      font-size: 30px;
+      font-family: 'Roboto', sans-serif; }
 
 .main {
   background-image: url(img/main.jpg);
   background-position: center;
-  height: 107vh;
+  height: 90vh;
   width: 100%;
+  min-height: 60vw;
   margin-top: -95px; }
   .main div {
     padding-top: 15%; }
@@ -261,12 +263,14 @@ header {
       text-align: center;
       color: #fff;
       font-size: 1.5vw;
-      font-family: 'Ubuntu', sans-serif; }
+      font-family: 'Doppio One', sans-serif; }
+      .main div p span {
+        color: #409fbe; }
   .main .main-arrow {
     text-align: center;
     margin-top: -5%; }
     .main .main-arrow a i {
-      font-size: 3.5vw;
+      font-size: 3vw;
       height: 2vw;
       width: 2vw;
       color: #409fbe;
@@ -274,7 +278,8 @@ header {
 
 .about {
   overflow: hidden;
-  height: 100vh; }
+  height: 100vh;
+  min-height: 60vw; }
   .about div .about-text {
     text-align: center;
     width: 400px;
@@ -287,20 +292,24 @@ header {
       margin-top: 50px;
       padding-top: 20px;
       font-size: 17px; }
+      .about div .about-text p span {
+        color: #409fbe; }
   .about div .photo img {
     height: 30vw; }
   .about div .left-arrow {
     float: right; }
     .about div .left-arrow a i {
-      font-size: 3.5vw;
+      font-size: 3vw;
       color: #409fbe;
-      cursor: pointer; }
+      cursor: pointer;
+      padding-right: 25px; }
   .about div .right-arrow {
     float: left; }
     .about div .right-arrow a i {
       font-size: 3.5vw;
       color: #409fbe;
-      cursor: pointer; }
+      cursor: pointer;
+      padding-left: 25px; }
   .about div .technology-title {
     text-align: center;
     margin-top: 40px; }
@@ -315,35 +324,39 @@ header {
     background-repeat: no-repeat;
     position: relative; }
     .about div .technology-position img {
-      height: 8vw;
-      width: 160px;
+      height: 6.6vw;
+      width: 120px;
       position: absolute;
       left: 16.66%; }
   .about div .left-arrow {
     float: right; }
     .about div .left-arrow a i {
-      font-size: 3.5vw;
+      font-size: 3vw;
       color: #409fbe;
-      cursor: pointer; }
+      cursor: pointer;
+      padding-right: 25px; }
   .about div .right-arrow {
     float: left; }
     .about div .right-arrow a i {
-      font-size: 3.5vw;
+      font-size: 3vw;
       color: #409fbe;
-      cursor: pointer; }
+      cursor: pointer;
+      padding-left: 25px; }
 
 .projects {
   background-image: url("img/stardust.jpeg");
   height: 100vh;
   position: relative;
   background-size: cover;
-  background-position: cover; }
+  background-position: cover;
+  min-height: 50vw; }
   .projects h1 {
     text-align: center;
     color: #409fbe;
     padding-top: 30px;
     font-size: 36px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    font-family: 'Doppio One', sans-serif; }
   .projects div .projects-position {
     height: 28vh;
     width: 34vh;
@@ -352,7 +365,8 @@ header {
     .projects div .projects-position .projects-style {
       height: 28vh;
       background-position: center;
-      background-size: cover; }
+      background-size: cover;
+      transition: all 0.5s ease; }
       .projects div .projects-position .projects-style .about-projects {
         position: absolute;
         height: 28vh;
@@ -360,13 +374,12 @@ header {
         background-color: rgba(255, 255, 255, 0.9);
         visibility: hidden;
         text-align: center;
-        transition: all 0.2s ease;
         z-index: 2; }
         .projects div .projects-position .projects-style .about-projects p {
           margin: 0;
           text-align: center;
           padding: 35px 10px 40px 10px;
-          font-size: 20px;
+          font-size: 15px;
           color: #217b96; }
         .projects div .projects-position .projects-style .about-projects .demo-button {
           margin-top: 25px; }
@@ -396,30 +409,34 @@ header {
     float: right;
     margin: 0; }
     .projects div .left-arrow a i {
-      font-size: 3.5vw;
+      font-size: 3vw;
       color: #409fbe;
       cursor: pointer;
-      margin-top: 50px; }
+      margin-top: 50px;
+      padding-right: 25px; }
   .projects div .right-arrow {
     float: left;
     margin: 0; }
     .projects div .right-arrow a i {
-      font-size: 3.5vw;
+      font-size: 3vw;
       color: #409fbe;
       cursor: pointer;
-      margin-top: 50px; }
+      margin-top: 50px;
+      padding-left: 25px; }
 
 .contact {
   height: 65vh;
   width: 100%;
   margin: auto;
-  padding-top: 47px; }
+  padding-top: 47px;
+  min-height: 35vw; }
   .contact div h1 {
     color: #409fbe;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 80px;
-    font-size: 28px; }
+    font-size: 28px;
+    font-family: 'Doppio One', sans-serif; }
   .contact div div {
     padding-right: 15px;
     padding-left: 15px; }
@@ -466,12 +483,13 @@ footer {
       float: left;
       color: #fff;
       margin-right: 50px;
-      font-size: 16px; }
+      font-size: 16px;
+      font-family: 'Doppio One', sans-serif; }
   footer div div {
     display: inline-block; }
     footer div div a {
       text-decoration: none;
-      margin: 10px 20px 0px 25px; }
+      margin: 10px 10px 0px 25px; }
       footer div div a i {
         font-size: 24px;
         color: #fff;
@@ -479,14 +497,16 @@ footer {
         animation-play-state: paused; }
 
 @media (min-width: 769px) {
-  .projects div .projects-position .projects-style:hover .about-projects {
-    visibility: visible; }
+  .projects div .projects-position .projects-style:hover {
+    transform: scale(1.2); }
+    .projects div .projects-position .projects-style:hover .about-projects {
+      visibility: visible; }
 
   footer div div a i:hover {
     animation-play-state: running; } }
 @media (max-width: 768px) {
   .main {
-    height: 80vh; }
+    height: 70vh; }
     .main div {
       padding-top: 40%; }
       .main div h1 {
@@ -526,6 +546,12 @@ footer {
         height: 20vh;
         width: 26vh;
         visibility: visible; }
+        .projects div .projects-position .projects-style .about-projects p {
+          padding: 35px 10px 20px 10px; }
+        .projects div .projects-position .projects-style .about-projects .demo-button {
+          margin-top: 2px; }
+          .projects div .projects-position .projects-style .about-projects .demo-button a {
+            font-size: 0.5rem; }
 
   .contact {
     height: 50vh; }
