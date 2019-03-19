@@ -278,7 +278,7 @@ header {
 
 .about {
   overflow: hidden;
-  height: 100vh;
+  height: 95vh;
   min-height: 60vw; }
   .about div .about-text {
     text-align: center;
