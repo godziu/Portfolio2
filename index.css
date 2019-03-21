@@ -165,69 +165,29 @@ body {
   padding: 0px; }
 
 header {
-  height: 5vh; }
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 1; }
   header .other {
     width: 100%;
     margin: auto;
-    background-color: #EEE;
     display: flex;
     justify-content: center;
     flex-flow: row;
-    padding: 10px; }
+    padding: 0 10px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.35); }
     header .other .aone {
       border-left: 5px solid #227b96;
-      background-color: gray;
-      color: #227b96;
+      background-color: rgba(103, 98, 98, 0.35);
       width: 15%;
       text-align: center;
       line-height: 27px;
       transition: all 0.5s ease-in-out; }
+      header .other .aone:last-child {
+        border-right: 5px solid #227b96; }
       header .other .aone:hover {
-        border-left: 5px solid #222;
-        background-color: #227b96;
-        color: #222;
-        transition: all 0.5s ease-in-out;
-        font-size: 20px;
-        width: 20%; }
-    header .other .atwo {
-      border-left: 5px solid #227b96;
-      background-color: gray;
-      color: violet;
-      width: 15%;
-      text-align: center;
-      line-height: 27px;
-      transition: all 0.5s ease-in-out; }
-      header .other .atwo:hover {
-        border-left: 5px solid #222;
-        background-color: #227b96;
-        color: #222;
-        transition: all 0.5s ease-in-out;
-        font-size: 20px;
-        width: 20%; }
-    header .other .athree {
-      border-left: 5px solid #227b96;
-      background-color: gray;
-      color: #227b96;
-      width: 15%;
-      text-align: center;
-      line-height: 27px;
-      transition: all 0.5s ease-in-out; }
-      header .other .athree:hover {
-        border-left: 5px solid #222;
-        background-color: #227b96;
-        color: #222;
-        transition: all 0.5s ease-in-out;
-        font-size: 20px;
-        width: 20%; }
-    header .other .afour {
-      border-left: 5px solid #227b96;
-      background-color: gray;
-      color: Orange;
-      width: 15%;
-      text-align: center;
-      line-height: 27px;
-      transition: all 0.5s ease-in-out; }
-      header .other .afour:hover {
         border-left: 5px solid #222;
         background-color: #227b96;
         color: #222;
@@ -237,38 +197,50 @@ header {
     header .other a {
       text-decoration: none;
       color: black;
-      font-size: 30px;
-      font-family: 'Roboto', sans-serif; }
+      font-size: 20px;
+      font-family: 'Roboto', sans-serif;
+      padding: 6px 0px;
+      display: inline-block; }
 
 .main {
   background-image: url(img/main.jpg);
   background-position: center;
-  height: 90vh;
+  height: 100vh;
   width: 100%;
-  min-height: 60vw;
-  margin-top: -95px; }
-  .main div {
-    padding-top: 15%; }
-    .main div h1 {
+  min-height: 770px;
+  position: relative; }
+  .main .welcome-text {
+    padding: 30px 70px 50px 160px;
+    background-color: rgba(0, 0, 0, 0.35);
+    border-radius: 0px 3px 3px 0;
+    display: inline-block;
+    position: absolute;
+    top: 20%; }
+    .main .welcome-text h1 {
       text-align: center;
       color: #409fbe;
       font-size: 3.5vw;
-      font-family: 'Charm', cursive; }
-    .main div h2 {
+      font-family: 'Charm', cursive;
+      margin-bottom: -30px; }
+    .main .welcome-text h2 {
       text-align: center;
       color: #fff;
       font-size: 3vw;
       font-family: 'Charm', cursive; }
-    .main div p {
+    .main .welcome-text p {
       text-align: center;
       color: #fff;
       font-size: 1.5vw;
       font-family: 'Doppio One', sans-serif; }
-      .main div p span {
+      .main .welcome-text p span {
         color: #409fbe; }
   .main .main-arrow {
     text-align: center;
-    margin-top: -5%; }
+    margin-top: -5%;
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%); }
     .main .main-arrow a i {
       font-size: 3vw;
       height: 2vw;
@@ -278,8 +250,8 @@ header {
 
 .about {
   overflow: hidden;
-  height: 95vh;
-  min-height: 60vw; }
+  height: 100vh;
+  min-height: 770px; }
   .about div .about-text {
     text-align: center;
     width: 400px;
@@ -315,19 +287,17 @@ header {
     margin-top: 40px; }
     .about div .technology-title p {
       color: #409fbe;
-      font-size: 2.3vw; }
+      font-size: 34px; }
   .about div .technology-position {
     height: 170px;
     background-position: center;
     background-size: cover;
     justify-content: center;
     background-repeat: no-repeat;
-    position: relative; }
+    position: relative;
+    display: flex; }
     .about div .technology-position img {
-      height: 6.6vw;
-      width: 120px;
-      position: absolute;
-      left: 16.66%; }
+      height: 6.6vw; }
   .about div .left-arrow {
     float: right; }
     .about div .left-arrow a i {
@@ -349,12 +319,12 @@ header {
   position: relative;
   background-size: cover;
   background-position: cover;
-  min-height: 50vw; }
+  min-height: 770px; }
   .projects h1 {
     text-align: center;
     color: #409fbe;
     padding-top: 30px;
-    font-size: 36px;
+    font-size: 34px;
     margin: 0 auto;
     font-family: 'Doppio One', sans-serif; }
   .projects div .projects-position {
@@ -435,7 +405,7 @@ header {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 80px;
-    font-size: 28px;
+    font-size: 34px;
     font-family: 'Doppio One', sans-serif; }
   .contact div div {
     padding-right: 15px;
@@ -455,32 +425,32 @@ header {
       padding-right: 15px;
       text-decoration: none; }
   .contact div textarea {
-    margin-top: 80px; }
+    margin-top: 120px; }
   .contact div div {
     text-align: center !important; }
     .contact div div button {
       display: inline-block;
-      background-color: #222;
-      border: 2px solid #222;
+      background-color: #409fbe;
+      border: 2px solid;
       color: #fff;
       padding: 10px 20px;
       text-transform: uppercase;
       font-size: 13px;
       font-weight: 600;
+      border-radius: 4px;
       cursor: pointer;
       margin-top: 50px; }
 
 footer {
   height: 50px;
-  background-color: gray;
   border-top-color: black;
   border-top-width: 3px;
-  border-top-style: solid; }
+  border-top-style: solid;
+  background-image: url("img/stardust.jpeg"); }
   footer div {
     height: 47px; }
     footer div p {
       margin-left: 50px;
-      float: left;
       color: #fff;
       margin-right: 50px;
       font-size: 16px;

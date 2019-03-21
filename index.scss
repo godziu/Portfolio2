@@ -83,74 +83,30 @@ $color: #409fbe;
 }
 
 header {
-	height: 5vh;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	z-index: 1;
 	.other {
 	  width: 100%;
 	  margin: auto;
-	  background-color: #EEE;
 	  display: flex;
 	  justify-content: center;
 	  flex-flow: row;
-	  padding: 10px;
+	  padding: 0 10px;
+		position: relative;
+		background-color: rgba(0, 0, 0, 0.35);
 	    .aone {
 	      border-left: 5px solid #227b96;
-	      background-color: gray;
-	      color: #227b96;
+	      background-color: rgba(103, 98, 98, 0.35);
+	      // color: #227b96;
 	      width: 15%;
 	      text-align: center;
 	      line-height: 27px;
 	      transition: all 0.5s ease-in-out;
-	      &:hover {
-	        border-left: 5px solid #222;
-	      	background-color: #227b96;
-	      	color: #222;
-	        transition: all 0.5s ease-in-out;
-	      	font-size: 20px;
-	      	width: 20%;
-	      }
-	    }
-	    .atwo {
-	      border-left: 5px solid #227b96;
-	    	background-color: gray;
-	    	color: violet;
-	      width: 15%;
-	      text-align: center;
-	      line-height: 27px;
-	      transition: all 0.5s ease-in-out;
-	      &:hover {
-	        border-left: 5px solid #222;
-	      	background-color: #227b96;
-	      	color: #222;
-	        transition: all 0.5s ease-in-out;
-	      	font-size: 20px;
-	      	width: 20%;
-	      }
-	    }
-	    .athree {
-	      border-left: 5px solid #227b96;
-	    	background-color: gray;
-	    	color: #227b96;
-	      width: 15%;
-	      text-align: center;
-	      line-height: 27px;
-	      transition: all 0.5s ease-in-out;
-	      &:hover {
-	        border-left: 5px solid #222;
-	      	background-color: #227b96;
-	      	color: #222;
-	        transition: all 0.5s ease-in-out;
-	      	font-size: 20px;
-	      	width: 20%;
-	      }
-	    }
-	    .afour {
-	      border-left: 5px solid #227b96;
-	    	background-color: gray;
-	    	color: Orange;
-	      width: 15%;
-	      text-align: center;
-	      line-height: 27px;
-	      transition: all 0.5s ease-in-out;
+				&:last-child {
+					border-right: 5px solid #227b96;
+				}
 	      &:hover {
 	        border-left: 5px solid #222;
 	      	background-color: #227b96;
@@ -162,9 +118,11 @@ header {
 	    }
 	    a {
 	      text-decoration: none;
-	       color: black;
-	       font-size: 30px;
-				 font-family: 'Roboto', sans-serif;
+				color: black;
+				font-size: 20px;
+				font-family: 'Roboto', sans-serif;
+				padding: 6px 0px;
+				display: inline-block;
 	    }
 	  }
 	}
@@ -172,17 +130,23 @@ header {
 .main {
   background-image: url(img/main.jpg);
   background-position: center;
-  height: 90vh;
+  height: 100vh;
   width: 100%;
-	min-height: 60vw;
-  margin-top: -95px;
-  div {
-    padding-top: 15%;
+	min-height: 770px;
+	position: relative;
+  .welcome-text {
+		padding: 30px 70px 50px 160px;
+		background-color: rgba(0, 0, 0, 0.35);
+		border-radius: 0px 3px 3px 0;
+		display: inline-block;
+		position: absolute;
+		top: 20%;
     h1 {
       text-align: center;
       color: $color;
       font-size: 3.5vw;
 			font-family: 'Charm', cursive;
+			margin-bottom: -30px;
     }
     h2 {
       text-align: center;
@@ -203,6 +167,10 @@ header {
   .main-arrow {
     text-align: center;
     margin-top: -5%;
+		position: absolute;
+		bottom: 25px;
+		left: 50%;
+		transform: translateX(-50%);
     a {
       i {
         font-size: 3vw;
@@ -218,8 +186,8 @@ header {
 
 .about {
 	overflow: hidden;
-	height: 95vh;
-	min-height: 60vw;;
+	height: 100vh;
+	min-height: 770px;
 	div {
 		.about-text {
 			text-align: center;
@@ -279,7 +247,7 @@ header {
 			margin-top: 40px;
 			p {
 				color: $color;
-				font-size: 2.3vw;
+				font-size: 34px;
 			}
 		}
 	}
@@ -291,11 +259,9 @@ header {
 			justify-content: center;
 			background-repeat: no-repeat;
 			position: relative;
+			display: flex;
 			img {
 				height: 6.6vw;
-				width: 120px;
-				position: absolute;
-				left: 16.66%;
 			}
 		}
 	}
@@ -333,12 +299,12 @@ header {
 	position: relative;
 	background-size: cover;
 	background-position: cover;
-	min-height: 50vw;
+	min-height: 770px;
 	h1 {
 		text-align: center;
 		color: $color;
 		padding-top: 30px;
-		font-size: 36px;
+		font-size: 34px;
 		margin: 0 auto;
 		font-family: 'Doppio One', sans-serif;
 	}
@@ -449,7 +415,7 @@ header {
 			text-align: center;
 			margin-top: 10px;
 			margin-bottom: 80px;
-			font-size: 28px;
+			font-size: 34px;
 			font-family: 'Doppio One', sans-serif;
 		}
 	}
@@ -476,19 +442,20 @@ div {
 			}
 		}
 		textarea {
-			margin-top: 80px;
+			margin-top: 120px;
 		}
 		div {
 			text-align: center !important;
 			button {
 				display: inline-block;
-				background-color: #222;
-				border: 2px solid #222;
+				background-color: $color;
+				border: 2px solid;
 				color: #fff;
 				padding: 10px 20px;
 				text-transform: uppercase;
 				font-size: 13px;
 				font-weight: 600;
+				border-radius: 4px;
 				cursor: pointer;
 				margin-top: 50px;
 			}
@@ -499,15 +466,14 @@ div {
 
 footer {
 	height: 50px;
-	background-color: gray;
 	border-top-color: black;
 	border-top-width: 3px;
 	border-top-style: solid;
+	background-image: url("img/stardust.jpeg");
 	div {
 		height: 47px;
 		p {
 			margin-left: 50px;
-			float: left;
 			color: #fff;
 			margin-right: 50px;
 			font-size: 16px;
