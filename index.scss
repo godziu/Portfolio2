@@ -128,8 +128,9 @@ header {
 	}
 
 .main {
-  background-image: url(img/main.jpg);
+  background-image: url(img/abstract.jpg);
   background-position: center;
+	background-size: cover;
   height: 100vh;
   width: 100%;
 	min-height: 770px;
@@ -294,7 +295,7 @@ header {
 }
 
 .projects {
-	background-image: url("img/stardust.jpeg");
+	background-image: url("img/abstract.jpg");
 	height: 100vh;
 	position: relative;
 	background-size: cover;
@@ -469,7 +470,8 @@ footer {
 	border-top-color: black;
 	border-top-width: 3px;
 	border-top-style: solid;
-	background-image: url("img/stardust.jpeg");
+	// background-image: url("img/abstract.jpeg");
+	background-color: rgb(175, 174, 180);
 	div {
 		height: 47px;
 		p {
