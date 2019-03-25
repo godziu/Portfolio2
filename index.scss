@@ -95,7 +95,7 @@ header {
 	  flex-flow: row;
 	  padding: 0 10px;
 		position: relative;
-		background-color: rgba(0, 0, 0, 0.35);
+		background-color: rgba(0, 0, 0, 0.45);
 	    .aone {
 	      border-left: 5px solid #227b96;
 	      background-color: rgba(103, 98, 98, 0.35);
@@ -128,7 +128,7 @@ header {
 	}
 
 .main {
-  background-image: url(img/abstract.jpg);
+  background-image: url(img/adventure.jpg);
   background-position: center;
 	background-size: cover;
   height: 100vh;
@@ -295,7 +295,7 @@ header {
 }
 
 .projects {
-	background-image: url("img/abstract.jpg");
+	background-image: url("img/alps.jpg");
 	height: 100vh;
 	position: relative;
 	background-size: cover;
@@ -471,7 +471,7 @@ footer {
 	border-top-width: 3px;
 	border-top-style: solid;
 	// background-image: url("img/abstract.jpeg");
-	background-color: rgb(175, 174, 180);
+	background-color: rgb(225, 194, 174);
 	div {
 		height: 47px;
 		p {
