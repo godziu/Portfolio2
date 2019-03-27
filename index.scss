@@ -9,7 +9,7 @@ body {
 	margin: 0 auto;
 }
 
-$color: #409fbe;
+$color: #b78f5d;
 
 /* grid */
 
@@ -97,7 +97,7 @@ header {
 		position: relative;
 		background-color: rgba(0, 0, 0, 0.45);
 	    .aone {
-	      border-left: 5px solid #227b96;
+	      border-left: 5px solid #b78f5d;
 	      background-color: rgba(103, 98, 98, 0.35);
 	      // color: #227b96;
 	      width: 15%;
@@ -105,11 +105,11 @@ header {
 	      line-height: 27px;
 	      transition: all 0.5s ease-in-out;
 				&:last-child {
-					border-right: 5px solid #227b96;
+					border-right: 5px solid #b78f5d;
 				}
 	      &:hover {
 	        border-left: 5px solid #222;
-	      	background-color: #227b96;
+	      	background-color: #b78f5d;
 	      	color: #222;
 	        transition: all 0.5s ease-in-out;
 	      	font-size: 20px;
@@ -295,7 +295,8 @@ header {
 }
 
 .projects {
-	background-image: url("img/dawn.jpg");
+	// background-image: url("img/dawn.jpg");
+	background-color: #6d3e33;
 	height: 100vh;
 	position: relative;
 	background-size: cover;
@@ -333,7 +334,7 @@ header {
 						text-align: center;
 						padding: 35px 10px 40px 10px;
 						font-size: 15px;
-						color: rgb(33, 123, 150);
+						color: #222;
 						// font-family: 'Roboto', sans-serif;
 					}
 					.demo-button {
@@ -471,7 +472,7 @@ footer {
 	border-top-width: 3px;
 	border-top-style: solid;
 	// background-image: url("img/abstract.jpeg");
-	background-color: rgb(225, 194, 174);
+	background-color: #6d3e33;
 	div {
 		height: 47px;
 		p {

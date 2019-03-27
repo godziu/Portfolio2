@@ -179,17 +179,17 @@ header {
     position: relative;
     background-color: rgba(0, 0, 0, 0.45); }
     header .other .aone {
-      border-left: 5px solid #227b96;
+      border-left: 5px solid #b78f5d;
       background-color: rgba(103, 98, 98, 0.35);
       width: 15%;
       text-align: center;
       line-height: 27px;
       transition: all 0.5s ease-in-out; }
       header .other .aone:last-child {
-        border-right: 5px solid #227b96; }
+        border-right: 5px solid #b78f5d; }
       header .other .aone:hover {
         border-left: 5px solid #222;
-        background-color: #227b96;
+        background-color: #b78f5d;
         color: #222;
         transition: all 0.5s ease-in-out;
         font-size: 20px;
@@ -219,7 +219,7 @@ header {
     top: 20%; }
     .main .welcome-text h1 {
       text-align: center;
-      color: #409fbe;
+      color: #b78f5d;
       font-size: 3.5vw;
       font-family: 'Charm', cursive;
       margin-bottom: -30px; }
@@ -234,7 +234,7 @@ header {
       font-size: 1.5vw;
       font-family: 'Doppio One', sans-serif; }
       .main .welcome-text p span {
-        color: #409fbe; }
+        color: #b78f5d; }
   .main .main-arrow {
     text-align: center;
     margin-top: -5%;
@@ -246,7 +246,7 @@ header {
       font-size: 3vw;
       height: 2vw;
       width: 2vw;
-      color: #409fbe;
+      color: #b78f5d;
       cursor: pointer; }
 
 .about {
@@ -266,28 +266,28 @@ header {
       padding-top: 20px;
       font-size: 17px; }
       .about div .about-text p span {
-        color: #409fbe; }
+        color: #b78f5d; }
   .about div .photo img {
     height: 30vw; }
   .about div .left-arrow {
     float: right; }
     .about div .left-arrow a i {
       font-size: 3vw;
-      color: #409fbe;
+      color: #b78f5d;
       cursor: pointer;
       padding-right: 25px; }
   .about div .right-arrow {
     float: left; }
     .about div .right-arrow a i {
       font-size: 3.5vw;
-      color: #409fbe;
+      color: #b78f5d;
       cursor: pointer;
       padding-left: 25px; }
   .about div .technology-title {
     text-align: center;
     margin-top: 40px; }
     .about div .technology-title p {
-      color: #409fbe;
+      color: #b78f5d;
       font-size: 34px; }
   .about div .technology-position {
     height: 170px;
@@ -303,19 +303,19 @@ header {
     float: right; }
     .about div .left-arrow a i {
       font-size: 3vw;
-      color: #409fbe;
+      color: #b78f5d;
       cursor: pointer;
       padding-right: 25px; }
   .about div .right-arrow {
     float: left; }
     .about div .right-arrow a i {
       font-size: 3vw;
-      color: #409fbe;
+      color: #b78f5d;
       cursor: pointer;
       padding-left: 25px; }
 
 .projects {
-  background-image: url("img/dawn.jpg");
+  background-color: #6d3e33;
   height: 100vh;
   position: relative;
   background-size: cover;
@@ -323,7 +323,7 @@ header {
   min-height: 770px; }
   .projects h1 {
     text-align: center;
-    color: #409fbe;
+    color: #b78f5d;
     padding-top: 30px;
     font-size: 34px;
     margin: 0 auto;
@@ -351,7 +351,7 @@ header {
           text-align: center;
           padding: 35px 10px 40px 10px;
           font-size: 15px;
-          color: #217b96; }
+          color: #222; }
         .projects div .projects-position .projects-style .about-projects .demo-button {
           margin-top: 25px; }
           .projects div .projects-position .projects-style .about-projects .demo-button a {
@@ -359,7 +359,7 @@ header {
             border-radius: 3px;
             border: none;
             font-size: 0.9rem;
-            background: #409fbe;
+            background: #b78f5d;
             color: #fff;
             text-align: center;
             font-weight: bold;
@@ -381,7 +381,7 @@ header {
     margin: 0; }
     .projects div .left-arrow a i {
       font-size: 3vw;
-      color: #409fbe;
+      color: #b78f5d;
       cursor: pointer;
       margin-top: 50px;
       padding-right: 25px; }
@@ -390,7 +390,7 @@ header {
     margin: 0; }
     .projects div .right-arrow a i {
       font-size: 3vw;
-      color: #409fbe;
+      color: #b78f5d;
       cursor: pointer;
       margin-top: 50px;
       padding-left: 25px; }
@@ -402,7 +402,7 @@ header {
   padding-top: 47px;
   min-height: 35vw; }
   .contact div h1 {
-    color: #409fbe;
+    color: #b78f5d;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 80px;
@@ -431,7 +431,7 @@ header {
     text-align: center !important; }
     .contact div div button {
       display: inline-block;
-      background-color: #409fbe;
+      background-color: #b78f5d;
       border: 2px solid;
       color: #fff;
       padding: 10px 20px;
@@ -447,7 +447,7 @@ footer {
   border-top-color: black;
   border-top-width: 3px;
   border-top-style: solid;
-  background-color: #e1c2ae; }
+  background-color: #6d3e33; }
   footer div {
     height: 47px; }
     footer div p {
