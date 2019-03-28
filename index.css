@@ -179,17 +179,17 @@ header {
     position: relative;
     background-color: rgba(0, 0, 0, 0.45); }
     header .other .aone {
-      border-left: 5px solid #b78f5d;
+      border-left: 5px solid #409fbe;
       background-color: rgba(103, 98, 98, 0.35);
       width: 15%;
       text-align: center;
       line-height: 27px;
       transition: all 0.5s ease-in-out; }
       header .other .aone:last-child {
-        border-right: 5px solid #b78f5d; }
+        border-right: 5px solid #409fbe; }
       header .other .aone:hover {
         border-left: 5px solid #222;
-        background-color: #b78f5d;
+        background-color: #409fbe;
         color: #222;
         transition: all 0.5s ease-in-out;
         font-size: 20px;
@@ -203,7 +203,7 @@ header {
       display: inline-block; }
 
 .main {
-  background-image: url(img/adventure.jpg);
+  background-image: url(img/desk1.jpg);
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -219,7 +219,7 @@ header {
     top: 20%; }
     .main .welcome-text h1 {
       text-align: center;
-      color: #b78f5d;
+      color: #409fbe;
       font-size: 3.5vw;
       font-family: 'Charm', cursive;
       margin-bottom: -30px; }
@@ -234,7 +234,7 @@ header {
       font-size: 1.5vw;
       font-family: 'Doppio One', sans-serif; }
       .main .welcome-text p span {
-        color: #b78f5d; }
+        color: #409fbe; }
   .main .main-arrow {
     text-align: center;
     margin-top: -5%;
@@ -246,7 +246,7 @@ header {
       font-size: 3vw;
       height: 2vw;
       width: 2vw;
-      color: #b78f5d;
+      color: #409fbe;
       cursor: pointer; }
 
 .about {
@@ -266,28 +266,28 @@ header {
       padding-top: 20px;
       font-size: 17px; }
       .about div .about-text p span {
-        color: #b78f5d; }
+        color: #409fbe; }
   .about div .photo img {
     height: 30vw; }
   .about div .left-arrow {
     float: right; }
     .about div .left-arrow a i {
       font-size: 3vw;
-      color: #b78f5d;
+      color: #409fbe;
       cursor: pointer;
       padding-right: 25px; }
   .about div .right-arrow {
     float: left; }
     .about div .right-arrow a i {
       font-size: 3.5vw;
-      color: #b78f5d;
+      color: #409fbe;
       cursor: pointer;
       padding-left: 25px; }
   .about div .technology-title {
     text-align: center;
     margin-top: 40px; }
     .about div .technology-title p {
-      color: #b78f5d;
+      color: #409fbe;
       font-size: 34px; }
   .about div .technology-position {
     height: 170px;
@@ -303,19 +303,19 @@ header {
     float: right; }
     .about div .left-arrow a i {
       font-size: 3vw;
-      color: #b78f5d;
+      color: #409fbe;
       cursor: pointer;
       padding-right: 25px; }
   .about div .right-arrow {
     float: left; }
     .about div .right-arrow a i {
       font-size: 3vw;
-      color: #b78f5d;
+      color: #409fbe;
       cursor: pointer;
       padding-left: 25px; }
 
 .projects {
-  background-color: #6d3e33;
+  background-color: #8d8c8d;
   border-top: 3px solid #222;
   border-bottom: 3px solid #222;
   height: 100vh;
@@ -325,7 +325,7 @@ header {
   min-height: 770px; }
   .projects h1 {
     text-align: center;
-    color: #b78f5d;
+    color: #409fbe;
     padding-top: 30px;
     font-size: 34px;
     margin: 0 auto;
@@ -361,7 +361,7 @@ header {
             border-radius: 3px;
             border: none;
             font-size: 0.9rem;
-            background: #b78f5d;
+            background: #409fbe;
             color: #fff;
             text-align: center;
             font-weight: bold;
@@ -383,7 +383,7 @@ header {
     margin: 0; }
     .projects div .left-arrow a i {
       font-size: 3vw;
-      color: #b78f5d;
+      color: #409fbe;
       cursor: pointer;
       margin-top: 50px;
       padding-right: 25px; }
@@ -392,7 +392,7 @@ header {
     margin: 0; }
     .projects div .right-arrow a i {
       font-size: 3vw;
-      color: #b78f5d;
+      color: #409fbe;
       cursor: pointer;
       margin-top: 50px;
       padding-left: 25px; }
@@ -404,7 +404,7 @@ header {
   padding-top: 47px;
   min-height: 35vw; }
   .contact div h1 {
-    color: #b78f5d;
+    color: #409fbe;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 80px;
@@ -433,7 +433,7 @@ header {
     text-align: center !important; }
     .contact div div button {
       display: inline-block;
-      background-color: #b78f5d;
+      background-color: #409fbe;
       border: 2px solid;
       color: #fff;
       padding: 10px 20px;
@@ -449,7 +449,7 @@ footer {
   border-top-color: black;
   border-top-width: 3px;
   border-top-style: solid;
-  background-color: #6d3e33; }
+  background-color: #8d8c8d; }
   footer div {
     height: 47px; }
     footer div p {
