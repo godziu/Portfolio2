@@ -190,6 +190,7 @@ header {
 	overflow: hidden;
 	height: 100vh;
 	min-height: 770px;
+	position: relative;
 	div {
 		.about-text {
 			text-align: center;
@@ -270,9 +271,10 @@ header {
 	div {
 		.left-arrow {
 			position: absolute;
-			bottom: -99%;
+			bottom: 1%;
 			left: 45%;
 			float: right;
+			margin: 0;
 			a {
 				i {
 					font-size: 3vw;
@@ -287,7 +289,8 @@ header {
 		.right-arrow {
 			float: left;
 			position: absolute;
-			bottom: -99%;
+			bottom: 1%;
+			margin: 0;
 			a {
 				i {
 					font-size: 3vw;
@@ -302,7 +305,7 @@ header {
 
 .projects {
 	// background-image: url("img/dawn.jpg");
-	background-color: #c6c4c5;
+	background-color: #676568;
 	border-top: 2px solid #222;
 	border-bottom: 2px solid #222;
 	height: 100vh;
@@ -485,12 +488,12 @@ footer {
 	border-top-width: 3px;
 	border-top-style: solid;
 	// background-image: url("img/abstract.jpeg");
-	background-color: #c6c4c5;
+	background-color: #676568;
 	div {
 		height: 47px;
 		p {
 			margin-left: 50px;
-			color: #222;
+			color: #fff;
 			margin-right: 50px;
 			font-size: 16px;
 			font-family: 'Doppio One', sans-serif;
@@ -504,7 +507,7 @@ footer {
 				margin: 10px 10px 0px 25px;
 				i {
 					font-size: 24px;
-					color: #222;
+					color: #fff;
 					margin: 10px 20px 0px 25px;
 					animation-play-state: paused;
 				}
@@ -624,7 +627,7 @@ footer {
 	}
 
 	.projects {
-		height: 1000px;
+		height: 872px;
 		div {
 			.projects-position {
 				height: 20vh;
@@ -644,6 +647,24 @@ footer {
 								font-size: 0.5rem;
 							}
 						}
+					}
+				}
+			}
+		}
+		div {
+			.left-arrow {
+				a {
+					i {
+						font-size: 4vw;
+					}
+				}
+			}
+		}
+		div {
+			.right-arrow {
+				a {
+					i {
+						font-size: 4vw;
 					}
 				}
 			}
@@ -736,6 +757,14 @@ footer {
 					img {
 						width: 80px;
 					}
+				}
+			}
+			div {
+				.left-arrow {
+				}
+			}
+			div {
+				.right-arrow {
 				}
 			}
 		}

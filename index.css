@@ -253,7 +253,8 @@ header {
 .about {
   overflow: hidden;
   height: 100vh;
-  min-height: 770px; }
+  min-height: 770px;
+  position: relative; }
   .about div .about-text {
     text-align: center;
     width: 400px;
@@ -302,9 +303,10 @@ header {
       height: 6.6vw; }
   .about div .left-arrow {
     position: absolute;
-    bottom: -99%;
+    bottom: 1%;
     left: 45%;
-    float: right; }
+    float: right;
+    margin: 0; }
     .about div .left-arrow a i {
       font-size: 3vw;
       color: #222;
@@ -313,7 +315,8 @@ header {
   .about div .right-arrow {
     float: left;
     position: absolute;
-    bottom: -99%; }
+    bottom: 1%;
+    margin: 0; }
     .about div .right-arrow a i {
       font-size: 3vw;
       color: #222;
@@ -321,7 +324,7 @@ header {
       padding-left: 25px; }
 
 .projects {
-  background-color: #c6c4c5;
+  background-color: #676568;
   border-top: 2px solid #222;
   border-bottom: 2px solid #222;
   height: 100vh;
@@ -458,12 +461,12 @@ footer {
   border-top-color: black;
   border-top-width: 3px;
   border-top-style: solid;
-  background-color: #c6c4c5; }
+  background-color: #676568; }
   footer div {
     height: 47px; }
     footer div p {
       margin-left: 50px;
-      color: #222;
+      color: #fff;
       margin-right: 50px;
       font-size: 16px;
       font-family: 'Doppio One', sans-serif; }
@@ -474,7 +477,7 @@ footer {
       margin: 10px 10px 0px 25px; }
       footer div div a i {
         font-size: 24px;
-        color: #222;
+        color: #fff;
         margin: 10px 20px 0px 25px;
         animation-play-state: paused; }
 
@@ -522,7 +525,7 @@ footer {
       font-size: 4vw; }
 
   .projects {
-    height: 1000px; }
+    height: 872px; }
     .projects div .projects-position {
       height: 20vh;
       width: 26vh; }
@@ -538,6 +541,10 @@ footer {
             margin-top: 2px; }
             .projects div .projects-position .projects-style .about-projects .demo-button a {
               font-size: 0.5rem; }
+    .projects div .left-arrow a i {
+      font-size: 4vw; }
+    .projects div .right-arrow a i {
+      font-size: 4vw; }
 
   .contact {
     height: 550px; }
