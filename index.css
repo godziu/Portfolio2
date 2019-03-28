@@ -454,7 +454,7 @@ footer {
     height: 47px; }
     footer div p {
       margin-left: 50px;
-      color: #fff;
+      color: #222;
       margin-right: 50px;
       font-size: 16px;
       font-family: 'Doppio One', sans-serif; }
@@ -465,7 +465,7 @@ footer {
       margin: 10px 10px 0px 25px; }
       footer div div a i {
         font-size: 24px;
-        color: #fff;
+        color: #222;
         margin: 10px 20px 0px 25px;
         animation-play-state: paused; }
 
