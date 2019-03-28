@@ -97,7 +97,7 @@ header {
 		position: relative;
 		background-color: rgba(0, 0, 0, 0.45);
 	    .aone {
-	      border-left: 5px solid #222;
+	      border-left: 5px solid #c6c4c5;
 	      background-color: rgba(103, 98, 98, 0.35);
 	      // color: #227b96;
 	      width: 15%;
@@ -105,11 +105,11 @@ header {
 	      line-height: 27px;
 	      transition: all 0.5s ease-in-out;
 				&:last-child {
-					border-right: 5px solid #222;
+					border-right: 5px solid #c6c4c5;
 				}
 	      &:hover {
 	        border-left: 5px solid #222;
-	      	background-color: #3a5aab;
+	      	background-color: #c6c4c5;
 	      	color: #222;
 	        transition: all 0.5s ease-in-out;
 	      	font-size: 20px;
