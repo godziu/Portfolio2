@@ -9,7 +9,7 @@ body {
 	margin: 0 auto;
 }
 
-$color: #409fbe;
+$color: #222;
 
 /* grid */
 
@@ -97,7 +97,7 @@ header {
 		position: relative;
 		background-color: rgba(0, 0, 0, 0.45);
 	    .aone {
-	      border-left: 5px solid #409fbe;
+	      border-left: 5px solid #222;
 	      background-color: rgba(103, 98, 98, 0.35);
 	      // color: #227b96;
 	      width: 15%;
@@ -105,11 +105,11 @@ header {
 	      line-height: 27px;
 	      transition: all 0.5s ease-in-out;
 				&:last-child {
-					border-right: 5px solid #409fbe;
+					border-right: 5px solid #222;
 				}
 	      &:hover {
 	        border-left: 5px solid #222;
-	      	background-color: #409fbe;
+	      	background-color: #3a5aab;
 	      	color: #222;
 	        transition: all 0.5s ease-in-out;
 	      	font-size: 20px;
@@ -128,7 +128,7 @@ header {
 	}
 
 .main {
-  background-image: url(img/desk1.jpg);
+  background-image: url(img/code.jpg);
   background-position: center;
 	background-size: cover;
   height: 100vh;
@@ -269,6 +269,9 @@ header {
 	}
 	div {
 		.left-arrow {
+			position: absolute;
+			bottom: -99%;
+			left: 45%;
 			float: right;
 			a {
 				i {
@@ -283,6 +286,8 @@ header {
 	div {
 		.right-arrow {
 			float: left;
+			position: absolute;
+			bottom: -99%;
 			a {
 				i {
 					font-size: 3vw;
@@ -378,14 +383,17 @@ header {
 	}
 	div {
 		.left-arrow {
+			position: absolute;
+			bottom: 1%;
 			float: right;
 			margin: 0;
+			left: 45%;
 			a {
 				i {
 					font-size: 3vw;
 					color: $color;
 					cursor: pointer;
-					margin-top: 50px;
+					// margin-top: 55px;
 					padding-right: 25px;
 				}
 			}
@@ -393,6 +401,8 @@ header {
 	}
 	div {
 		.right-arrow {
+			position: absolute;
+			bottom: 1%;
 			float: left;
 			margin: 0;
 			a {
@@ -400,7 +410,7 @@ header {
 					font-size: 3vw;
 					color: $color;
 					cursor: pointer;
-					margin-top: 50px;
+					// margin-top: 55px;
 					padding-left: 25px;
 				}
 			}
