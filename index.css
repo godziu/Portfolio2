@@ -348,9 +348,11 @@ header {
       height: 28vh;
       background-position: center;
       background-size: cover;
-      transition: all 0.5s ease; }
+      transition: all 0.5s ease;
+      border-radius: 6px; }
       .projects div .projects-position .projects-style .about-projects {
         position: absolute;
+        border-radius: 6px;
         height: 28vh;
         width: 34vh;
         background-color: rgba(255, 255, 255, 0.9);
